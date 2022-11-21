@@ -61,25 +61,18 @@ body[data-mode="dark"] pre code {
 	font-style: italic;
 }
 
-
-
 /* CSS for sans-serif fonts */
 body[data-font=sans-serif] {
-	font-size:20px;
-	line-height:200%;
 	font-family:opendyslexic !important;
 }
+
 /* CSS for serif fonts */
 body[data-font=serif] {
-	font-size:20px;
-	line-height:200%;
 	font-family:opendyslexic !important;
 }
 
 /* CSS for serif fonts */
 code {
-	font-size:20px;
-	line-height:200%;
 	font-family:opendyslexic-monospace !important;
 }
 

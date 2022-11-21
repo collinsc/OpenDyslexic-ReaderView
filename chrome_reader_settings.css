@@ -28,35 +28,35 @@ body[data-mode="dark"] pre code {
 
 @font-face {
   font-family: 'opendyslexic';
-	src: url('http://127.0.0.1:8080/OpenDyslexic-Regular.otf');
+	src: url('http://127.0.0.1:61719/OpenDyslexic-Regular.otf');
 	font-style: normal;
 	font-weight: normal;
 } 
 
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('http://127.0.0.1:8080/OpenDyslexic-Italic.otf');
+	src: url('http://127.0.0.1:61719/OpenDyslexic-Italic.otf');
 	font-style: italic;
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('http://127.0.0.1:8080/OpenDyslexic-Bold.otf');
+	src: url('http://127.0.0.1:61719/OpenDyslexic-Bold.otf');
 	font-weight: bold;
 	font-style: normal;
 } 
 
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('http://127.0.0.1:8080/OpenDyslexic-BoldItalic.otf');
+	src: url('http://127.0.0.1:61719/OpenDyslexic-BoldItalic.otf');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'opendyslexic-monospace';
-	src: url('http://127.0.0.1:8080/OpenDyslexic-BoldItalic.otf');
+	src: url('http://127.0.0.1:61719/OpenDyslexic-BoldItalic.otf');
 	font-weight: bold;
 	font-style: italic;
 }

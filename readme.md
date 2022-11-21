@@ -1,6 +1,6 @@
 # Chrome Reader View Open Dyslexic Font Server
 
-Server for local font files & integration with chrome Reader View custom css.
+Server for local font files & integration with Chrome Reader View custom css.
 
 ![Photo of correctly configured reader](sample.png)
 
@@ -23,7 +23,7 @@ Requires npm.
 
 4. In the reader view custom styling section paste: [chrome_reader_settings.css](chrome_reader_settings.css)
 
-5. Start the server
+5. Start the server, runs on port 61719.
 
 `> npm run start`
 

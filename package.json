@@ -1,0 +1,14 @@
+{
+
+  "author": "Collin Stair Conway <collinsconway@gmail.com> ()",
+  "description":"Server for local font files.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "forever start ./node_modules/http-server/bin/http-server -p 80 -d false"
+  },
+  "dependencies": {
+    "forever": "^4.0.3",
+    "http-server": "^14.1.1"
+  }
+}

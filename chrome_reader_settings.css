@@ -1,0 +1,91 @@
+body {
+  padding-bottom: 64px;
+}
+a:visited {
+  color: #d33bf0;
+}
+a:link, a:link:hover, a:link:active, a:link * {
+  color: #0095dd;
+}
+a:link {
+  text-decoration: none;
+  font-weight: normal;
+}
+pre {
+  white-space: pre-wrap;
+}
+pre code {
+  background-color: #eff0f1;
+  color: #393318;
+  font-family: monospace;
+  display: block;
+  padding: 5px 10px;
+}
+body[data-mode="dark"] pre code {
+  background-color: #585858;
+  color: #e8e8e8;
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+	src: url('http://127.0.0.1:8080/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://127.0.0.1:8080/OpenDyslexic-Italic.otf');
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://127.0.0.1:8080/OpenDyslexic-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://127.0.0.1:8080/OpenDyslexic-BoldItalic.otf');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'opendyslexic-monospace';
+	src: url('http://127.0.0.1:8080/OpenDyslexic-BoldItalic.otf');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+/* CSS for sans-serif fonts */
+body[data-font=sans-serif] {
+	font-size:20px;
+	line-height:200%;
+	font-family:opendyslexic !important;
+}
+/* CSS for serif fonts */
+body[data-font=serif] {
+	font-size:20px;
+	line-height:200%;
+	font-family:opendyslexic !important;
+}
+
+/* CSS for serif fonts */
+code {
+	font-size:20px;
+	line-height:200%;
+	font-family:opendyslexic-monospace !important;
+}
+
+/* CSS for "sepia" theme */
+body[data-mode=sepia] {}
+/* CSS for "light" theme */
+body[data-mode=light] {}
+/* CSS for "dark" theme */
+body[data-mode=dark] {}

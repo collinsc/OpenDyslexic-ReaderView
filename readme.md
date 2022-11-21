@@ -25,11 +25,9 @@ Requires npm.
 
 5. Start the server, runs on port 61719.
 
-`> npm run start`
-
+`npm install
+npm run start`
 
 ## Configure as startup program  (Windows Only)
 
 Make a shortcut to [start_font_server.bat](start_font_server.bat) and copy it to `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup`
-
-

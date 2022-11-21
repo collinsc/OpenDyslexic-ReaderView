@@ -21,7 +21,7 @@ Requires npm.
     - ~/Fonts/OpenDyslexicMono-Regular.otf
     - ~/Fonts/OpenDyslexic-Regular.otf
 
-4. In the reader view custom styling section paste: [](chrome_reader_settings.css)
+4. In the reader view custom styling section paste: [chrome_reader_settings.css](chrome_reader_settings.css)
 
 5. Start the server
 

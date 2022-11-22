@@ -5,10 +5,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "forever start ./node_modules/http-server/bin/http-server -p 61719 -d false"
+    "start": "http-server -p 61719 --cors"
   },
   "dependencies": {
-    "forever": "^4.0.3",
     "http-server": "^14.1.1"
   }
 }

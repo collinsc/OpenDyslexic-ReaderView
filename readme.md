@@ -28,6 +28,8 @@ Requires npm.
 `npm install
 npm run start`
 
-## Configure as startup program  (Windows Only)
+## Run as a container
+If you have docker configured to run on startup can be configured as follows
 
-Make a shortcut to [start_font_server.bat](start_font_server.bat) and copy it to `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup`
+`docker build --tag font-server .
+docker run -d --restart unless-stopped font-server`

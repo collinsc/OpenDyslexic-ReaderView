@@ -28,8 +28,12 @@ Requires npm.
 `npm install
 npm run start`
 
+## Run on startup
+Make a shortcut and put it in your startup directory for: [start_font_server.bat](start_font_server.bat)
+On win-11: `%appdata%\Microsoft\Windows\Start Menu\Programs\Startup`
+
 ## Run as a container
 If you have docker configured to run on startup can be configured as follows
-
+It's a non objective to bundle the font in the container.
 `docker build --tag font-server .
 docker run -d --restart unless-stopped font-server`

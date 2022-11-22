@@ -1,13 +1,28 @@
 {
 
   "author": "Collin Stair Conway <collinsconway@gmail.com> ()",
-  "description":"Server for local font files.",
+
+  "description": "Server for local font files.",
+
   "license": "MIT",
+
   "private": true,
+
   "scripts": {
-    "start": "http-server -p 61719 --cors"
+
+    "serve": "http-server -p 61719 --cors",
+
+    "start": "forever start ./node_modules/http-server/bin/http-server -p 61719 --cors -d false"
+
   },
+
   "dependencies": {
+
+    "forever": "^4.0.3",
+
     "http-server": "^14.1.1"
+
   }
+
 }
+
